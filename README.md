@@ -1,4 +1,4 @@
-# Vendor Performance Analytics
+# Vendor Performance Data Analytics
 
 In the retail and wholesale industry, it is important to maintain effective inventory and sales management practices to optimize profit. This goal is achieved by companies through checking and ensuring they are not incurring losses due inefficient pricing, poor inventory turnover, or vendor dependency.
 This project uses SQL, Python, PowerBI, and Jupyter Notebooks to analyze the sales, pricing, purchases, freight, and inventory information of various brands.
