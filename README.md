@@ -5,5 +5,9 @@ This project uses SQL, Python, PowerBI, and Jupyter Notebooks to analyze the sal
 
 The goal of the analysis is to:
 - identify underperforming brands that require pricing readjustment or promotions
+- determine top vendors contributing to sales and gross profit
+- analyze the impact of bulk purchasing on unit costs
+- assess inventory turnover to reduce holding costs and improve efficiency
+- investigate the profitability variance between high-performing and low-performing vendors
 
 ## Project Organization
