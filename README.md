@@ -15,5 +15,6 @@ The goal of the analysis is to:
 ## Data
 
 ## Approach
+- hypothesis testing
 
 ## Project Organization
