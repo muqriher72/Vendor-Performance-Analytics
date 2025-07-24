@@ -3,6 +3,11 @@
 In the retail and wholesale industry, it is important to maintain effective inventory and sales management practices to optimize profit. This goal is achieved by companies through checking and ensuring they are not incurring losses due inefficient pricing, poor inventory turnover, or vendor dependency.
 This project uses SQL, Python, PowerBI, and Jupyter Notebooks to analyze the sales, pricing, purchases, freight, and inventory information of various brands.
 
+The project invovles the following technical concepts:
+
+- Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn
+- Hypothesis Testing
+
 ## Research Goal
 
 The goal of the analysis is to:
@@ -15,6 +20,5 @@ The goal of the analysis is to:
 ## Data
 
 ## Approach
-- hypothesis testing
 
 ## Project Organization
