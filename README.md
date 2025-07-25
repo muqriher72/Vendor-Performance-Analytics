@@ -56,7 +56,7 @@ The following tasks are completed in this project:
 │   └── vendor_invoice.csv      <- A CSV file that contains information on the invoice for a vendor.
 │
 ├── logs                
-│   └── vendor_invoice      <- .
+│   └── ingestion_db.log        <- A log file that maintains the time taken to ingest the data files into the database.
 │
 ├── powerbi                 
 │   ├── BrandPerformance.xls         <- A CSV file created in PowerBI using a query and information from the inventory file.
