@@ -43,64 +43,36 @@ The following tasks are completed in this project:
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
+├── LICENSE                 <- Open-source license if one is chosen
+├── README.md               <- The top-level README for developers using this project.
 ├── data
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── begin_inventory.csv     <- A CSV file that contains information on the initial inventory of a vendor.
+│   ├── end_inventory.csv       <- A CSV file that contains information on the final inventory of a vendor.
+│   ├── purchase_prices.csv     <- A CSV file that contains information on the purchase prices of a vendor.
+│   ├── purchases.7z            <- A CSV file that contains information on the purchases of a vendor.
+│   ├── sales.7z                <- A CSV file that contains information on the sales of a vendor.
+│   └── vendor_invoice.csv      <- A CSV file that contains information on the invoice for a vendor.
 │
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
+├── logs                
+│   └── vendor_invoice      <- .
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── powerbi                 
+│   ├── BrandPerformance.xls         <- A CSV file created in PowerBI using a query and information from the inventory file.
+│   ├── LowTurnoverVendor.xls        <- A CSV file created in PowerBI using a query and information from the inventory file.
+│   ├── inventory.xls                <- A CSV file containing information from the vendor_sales_summary table.
+│   ├── purchase_contributions.xls   <- A CSV file created in PowerBI using a query and information from the inventory file.
+│   ├── vendorperformance.pbix       <- A PowerBI that contains a dashboard of the overall analysis results.
+│   └── vendorperformance.pdf        <- A PDF file of the PowerBI dashboard.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering) and a
-│                         short `-` delimited description, e.g.`1.0-jqp-initial-data-exploration`.
-│                           0 - Data exploration 
-│                           1 - Data cleaning and feature creation
-│                           2 - Visualizations
-│                           3 - Modeling (training and evaluating machine learning models)
-│                               3.0X – Baseline Model
-│                               3.1X – GPA Predictor 
-│                               3.2X – Optimizer for study habits
-│                               3.3X – KNN sxample students finder
-│                               3.4X – Text generation (GPT-4)
-│                               3.5X – Final integrated model
+├── Vendor Performance Report.pdf       <- A PDF report summarizing insights and reccomendations based on data analysis. 
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         smartstudy and configuration for tools like black
+├── exploratory_data_analysis.ipynb     <- A Jupyter Notebook file that contains the initial EDA performed on the data using Python and SQL queries.
+│                         
+├── get_vendor_summary.ipynb            <- A Jupyter Notebook file that contains the vendor summary table made using Python and SQL.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── ingest_db.ipynb                     <- A Jupyter Notebook file that contains a Python script to ingest the data into the database and maintain logs.
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── smartstudy   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes smartstudy a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── generate_scaler.py      <- Code to scale data for modeling
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── train_tabpfn.py      <- Code to train tabpfn model into serialized model     
-    │   ├── optimizer.py         <- Code to run optimization with tabpfn model  
-    │   ├── knn_matching.py      <- Code to run knn matching using user input       
-    │   └── gpt_utils.py         <- Code to run gpt-4 model for text generation
-    │
-    ├── app.py                  <- Code to run the GUI and call relevant scripts
-    │
-    └── plots.py                <- Code to create visualizations
+└── vendor_performance_analysis.ipynb   <- A Jupyter Notebook file that contains the initial EDA performed on the data.
     
 ```
 
