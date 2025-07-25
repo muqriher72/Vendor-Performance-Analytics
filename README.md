@@ -6,6 +6,8 @@ This project uses SQL, Python, PowerBI, and Jupyter Notebooks to analyze the sal
 The project invovles the following technical concepts:
 
 - Python: Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn
+- SQL
+- PowerBI
 - Hypothesis Testing
 
 ## Research Goal
